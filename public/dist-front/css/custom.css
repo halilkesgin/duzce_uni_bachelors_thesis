@@ -1,0 +1,34 @@
+.avatar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: -.01rem;
+    height: auto;
+}
+.card4 {
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: rgba(164, 174, 198, 0.2);
+    --bs-card-border-radius: 0.4rem;
+    --bs-card-inner-border-radius: 0.4rem;
+    --bs-card-cap-bg: transparent;
+    --bs-card-bg: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    box-shadow: var(--bs-card-box-shadow);
+}
+
+
+.nav-item12 {
+    font-size: 12px !important;
+}
